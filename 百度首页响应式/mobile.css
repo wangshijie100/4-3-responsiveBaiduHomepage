@@ -1,0 +1,219 @@
+body,div,h1,h2,p,span,a,i,form,input,img{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial,Helvetica,sans-serif;
+}
+body, .mobile_page, .mobile_content, .mobile_head, .mobile_logo{
+	width: 100%;
+}
+.wrapper{
+	display: none;
+}
+.mobile_page{
+	padding:10px;
+}
+.mobile_weather{
+	position: relative;
+	left: 10px;
+}
+.mobile_weather .first_weather {
+    font-size: 30px;
+    color: #818388;
+    float: left; 
+}
+.mobile_weather .second_weather {
+    float: left;
+}
+.mobile_weather .third_weather {
+	float: left;
+}
+.mobile_weather p{
+	height: 13px;
+    line-height: 13px;
+	font-size: 11px;
+    color: #7e818a;
+}
+.mobile_login{
+	float: right;
+	position: relative;
+	left: -10px;
+}
+.clear{
+	clear: both;
+}
+.mobile_logo{
+	text-align: center;
+	margin-top: 20px;
+}
+.logo{
+	margin-bottom: 18px;
+}
+.mobile_logo img{
+	width: 175px;
+	height: 55px;
+}
+.mobile_form{
+	margin: 0 10px;
+    border: 1px solid #8d9394;
+    border-radius: 1px;
+    height: 42px;
+    -webkit-box-shadow: 0 1px 1px 0 #dfdfdf;
+    background: #fff;
+}
+.mobile_searchbar{
+	display: -webkit-box;
+}
+.mobile_text{
+	width: 700px;
+	border-radius: 0;
+	border:0;
+    margin: 0;
+    padding: 0px 42px 5px 5px;
+    line-height: 28px;
+    resize: none;
+    overflow: hidden;
+    font-family: Arial,Helvetica,sans-serif;
+    position: relative;
+    top:5px;
+}
+.mobile_text:focus{
+	outline: none;
+}
+.mobile_submit{
+	width: 100px;
+}
+.mobile_submit_btn{
+	position: absolute;
+    top: 137px;
+    right: 0;
+    width: 100px;
+    background: -webkit-linear-gradient(top,#f9f9f9,#e7e9eb);
+    color: #46484b;
+    box-shadow: 0 0 0 1px #fff inset;
+    text-shadow: 0 1px 0 #fafafa;
+    white-space: nowrap;
+    line-height: 40px;
+    border-left: 1px solid #8d9394;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.mobile_navs{
+	text-align: center;
+	margin: 17px 0 14px;
+}
+.mobile_website{
+	margin:30px 10px 5px 10px;
+	border:1px solid #7e818a;
+	height: 120px;
+}
+.website_title{
+	margin:10px;
+}
+.website_content_1{
+	text-align: center;
+}
+.website_content_1 a{
+	float: left;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    padding: 0 6px;
+    width: 25%;
+    height: 42px;
+    line-height: 42px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+.icon-menu3{
+	float: right;
+}
+.mobile_hotspot{
+	margin:20px 10px 5px 10px;
+	border:1px solid #7e818a;
+	height: 150px;
+}
+.hotspot_title{
+	margin:10px;
+}
+.hotspot_content_1{
+	text-align: center;
+}
+.hotspot_content_1 a{
+	float: left;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    width: 50%;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-67hc8n');
+	src:url('fonts/icomoon.eot?#iefix-67hc8n') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?-67hc8n') format('truetype'),
+		url('fonts/icomoon.woff?-67hc8n') format('woff'),
+		url('fonts/icomoon.svg?-67hc8n#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-newspaper:before {
+	content: "\e600";
+}
+.icon-film:before {
+	content: "\e601";
+}
+.icon-files-empty:before {
+	content: "\e602";
+}
+.icon-location2:before {
+	content: "\e603";
+}
+.icon-gift:before {
+	content: "\e604";
+}
+.icon-circle-down:before {
+	content: "\e605";
+}
+.icon-earth:before {
+	content: "\e607";
+}
+.icon-menu3:before {
+	content: "\e608";
+}
+.icon-target:before {
+	content: "\e606";
+}
+.mobile_navs a{
+	margin-left: 5%;
+	font-size: 13px;
+    color: #262626;
+    text-decoration: none;
+}
+#mobile_navs a i{
+    display: block;
+    margin-bottom: 4px;
+    height: 24px;
+}
+#mobile_navs a span{
+	display: block;
+}

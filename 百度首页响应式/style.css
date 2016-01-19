@@ -1,0 +1,184 @@
+body,div,h1,h2,p,span,a,i,form,input,img{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font: 12px arial;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-width: 810px;
+    height: 100%;
+    min-height: 600px;
+ }
+ .head{
+	position: relative;
+    padding-bottom: 0;
+    height: 100%;
+    min-height: 600px;
+    text-align: center;
+ }
+ .head .head_wrapper{
+    height: 100%;
+}
+.content{
+	position: relative;
+    top: 38.2%;
+}
+.content_wrapper{
+	position: relative;
+    top: -191px;
+}
+.baidu_logo img{
+	border:0;
+	width: 270px;
+	height: 129px;
+}
+.search{
+	margin: 22px auto 0;
+    width: 641px;
+    text-align: left;
+    z-index: 100;
+    text-align: left;
+}
+.searchbar{
+	border: 1px solid #b6b6b6;
+    background: #fff;
+    display: inline-block;
+    vertical-align: top;
+    width: 539px;
+    height: 34px;
+    margin-right: 0;
+    border-right-width: 0;
+    border-color: #b8b8b8 transparent #ccc #b8b8b8;
+    overflow: hidden;
+}
+.text{
+	width: 500px;
+	height: 22px;
+	margin: 6px 0 0 7px;
+	border: 0;
+	background: transparent;
+	outline: 0;
+    -webkit-appearance: none;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+}
+.submit{
+	width: auto;
+    height: auto;
+}
+.submit_btn{
+	width: 95px;
+    height: 36px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border: 0;
+    outline: medium;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    background-position: 0 -48px;
+    cursor: pointer;
+    position: relative;
+    left: -5px;
+}
+.nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 19px 0 5px 0;
+    padding: 0 96px 0 0;
+    color: #FFF;
+}
+.nav a{
+	color: red;
+	float: left;
+    color: #333;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+}
+.nav .nav1{
+	display: inline-block;
+    float: left;
+    color: #333;
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: 20px;
+    text-decoration: underline;
+    font-weight: normal;
+
+}
+.nav .nav2{
+	position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 23px;
+    float: left;
+    color: white;
+    background: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 2px;
+    text-decoration: none;
+}
+.foot{
+	height: 100px;
+    position: absolute;
+    bottom: 44px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 0;
+    overflow: hidden;
+}
+.foot_wrapper{
+	width: 720px;
+    margin: 0 auto;
+}
+.foot_p1{
+	margin: 16px 0 5px;
+}
+.foot_p1 a{
+    margin: 0 10px;
+    color: #00c;
+}
+.foot_p2{
+	color: #666;
+}
+.foot_p2 a{
+	color: #00c;
+}
+.icon{
+	width: 14px;
+    height: 17px;
+    display: inline-block;
+    overflow: hidden;
+    background: url("images/footer_icon.png");
+    position: relative;
+    top: 3px;
+}
+.submit_btn:hover{
+	background: #317ef3;
+	box-shadow:1px 1px 1px #b6b6b6;
+}
+.nav a:hover{
+	color: #00c;
+}
+.nav .nav2:hover{
+	color: #FFF;
+}
+.mobile_page{
+    display: none;
+}
